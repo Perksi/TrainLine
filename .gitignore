@@ -45,3 +45,4 @@ packages
 
 # Office Temp Files
 ~$*
+src/.nuget/packages.config
