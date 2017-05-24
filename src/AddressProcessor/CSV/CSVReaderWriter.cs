@@ -20,7 +20,7 @@ namespace AddressProcessing.CSV
         [Flags]
         public enum Mode { Read = 1, Write = 2 };
 
-        public void Open(string fileName, Mode mode)
+        public bool Open(string fileName, Mode mode)
         {
             try {
                 //Make use of switch instead of previous use of if statements
@@ -29,13 +29,13 @@ namespace AddressProcessing.CSV
                         //Updated to use StreamReader instead for File.Opentext for better control of buffer, however 
                         //File.ReadAllLines(fileName) may provide the best performance but at cost of memory consumption
                         _readerStream = new StreamReader(fileName);
-                        return;
+                        return true;
                     case Mode.Write:
                         _writerStream = new StreamWriter(fileName, true); 
-                        return;
+                        return true;
                     default:
-                        //Unknown request - Do something more here?
-                        return;
+                        //Unknown request 
+                        return false;
                 }
             }
             //Implemented try catch for catching exceptions, not in else condition. The exception 
@@ -56,7 +56,7 @@ namespace AddressProcessing.CSV
             foreach (string column in columns) {
                 sb.Append(column);
                 if (i++ < columns.Length - 1) {
-                    sb.Append("\t");
+                    sb.Append('\t');
                 }
             }
             _writerStream.WriteLine(sb);

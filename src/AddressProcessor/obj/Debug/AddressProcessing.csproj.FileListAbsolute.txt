@@ -1,9 +1,0 @@
-D:\Source Code\Interview Test\Backend Engineer (General - C_)\src\AddressProcessor\bin\Debug\AddressProcessing.dll
-D:\Source Code\Interview Test\Backend Engineer (General - C_)\src\AddressProcessor\bin\Debug\AddressProcessing.pdb
-D:\Source Code\Interview Test\Backend Engineer (General - C_)\src\AddressProcessor\obj\Debug\AddressProcessing.dll
-D:\Source Code\Interview Test\Backend Engineer (General - C_)\src\AddressProcessor\obj\Debug\AddressProcessing.pdb
-D:\Source Code\GitHub\TrainLine\src\AddressProcessor\bin\Debug\AddressProcessing.dll
-D:\Source Code\GitHub\TrainLine\src\AddressProcessor\bin\Debug\AddressProcessing.pdb
-D:\Source Code\GitHub\TrainLine\src\AddressProcessor\obj\Debug\AddressProcessing.csprojResolveAssemblyReference.cache
-D:\Source Code\GitHub\TrainLine\src\AddressProcessor\obj\Debug\AddressProcessing.dll
-D:\Source Code\GitHub\TrainLine\src\AddressProcessor\obj\Debug\AddressProcessing.pdb
